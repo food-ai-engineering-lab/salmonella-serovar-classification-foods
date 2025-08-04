@@ -6,20 +6,35 @@ This repository is for the article **"Rapid *Salmonella* Serovar Classification 
 
 ## Datasets
 
+The processed dataset (i.e., single-cell spectra and RGB composite images) is available on Zenodo at [DOI: 10.5281/zenodo.16740800](https://zenodo.org/records/16740800).
+
+- `spectra_single_cell.csv`: Single-cell spectral data extracted from hyperspectral cubes. Each row contains the spectral features and serovar label of one bacterial cell. Note that each hyperspectral data cube contains multiple cells.
+- `images.zip`: RGB composite images generated from each hyperspectral cube, with one image corresponding to one hyperspectral data cube. This image directory follows the PyTorch `ImageFolder`-style structure: 
+
+```bash
+images/
+├── train/
+│   ├── Enteritidis/
+│   ├── Infantis/
+│   └── ...
+└── evaluate/
+    ├── img001.png
+    ├── img002.png
+    └── ...
+```
 
 
 ## Processing Raw Hypercube Data
 
-- `requirements.txt`:
+- `requirements.txt`: Python packages and versions used for data processing, modeling, and visualization. Install with `pip install -r requirements.txt`.
 - `test_hmi.py`:
-- `Serovar_PCA_ML_111524.ipynb`
-- `fusion_2_cpu.ipynb`: 
+- `Serovar_PCA_ML_111524.ipynb`:
 
 
 ## Workflow for Model Training and Testing
 
-- `test_hmi.py`:
 - `Serovar_PCA_ML_111524.ipynb`:
+- `fusion_2_cpu.ipynb`: 
 
 
 ## Acknowledgments
