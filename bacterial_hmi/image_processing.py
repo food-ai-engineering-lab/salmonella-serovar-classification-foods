@@ -8,4 +8,4 @@ from tifffile import imsave, imread
 from skimage import transform
 
 # Placeholder for image processing functions
-# The actual implementation is proprietary to USDA-ARS.
+# The actual implementation is proprietary to USDA-ARS
