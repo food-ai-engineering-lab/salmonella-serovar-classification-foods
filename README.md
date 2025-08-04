@@ -4,7 +4,16 @@ This repository is for the article **"Rapid *Salmonella* Serovar Classification 
 - Preprint: [DOI: 10.20944/preprints202507.1691.v1](https://doi.org/10.20944/preprints202507.1691.v1)
 - Final Paper: Link to be updated
 
-## Datasets
+
+## Requirements
+
+The required Python packages and versions for data processing, modeling, and visualization are listed in `requirements.txt`. Install with:
+```
+pip install -r requirements.txt
+```
+
+
+## Dataset
 
 The processed dataset (i.e., single-cell spectra and RGB composite images) is available on Zenodo at [DOI: 10.5281/zenodo.16740800](https://zenodo.org/records/16740800).
 
@@ -26,7 +35,6 @@ images/
 
 ## Processing Raw Hypercube Data
 
-- `requirements.txt`: Python packages and versions used for data processing, modeling, and visualization. Install with `pip install -r requirements.txt`.
 - `test_hmi.py`:
 - `Serovar_PCA_ML_111524.ipynb`:
 
