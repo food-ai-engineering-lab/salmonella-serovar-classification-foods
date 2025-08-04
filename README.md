@@ -1,16 +1,25 @@
 # salmonella-serovar-classification-foods
-This repository is for the article "Rapid *Salmonella* Serovar Classification Using AI-Enabled Hyperspectral Microscopy with Enhanced Data Preprocessing and Multimodal Fusion", published in Foods.
+This repository is for the article **"Rapid *Salmonella* Serovar Classification Using AI-Enabled Hyperspectral Microscopy with Enhanced Data Preprocessing and Multimodal Fusion"**, published in Foods.
 
-## Requirements 
-
+- Preprint: [DOI: 10.20944/preprints202507.1691.v1](https://doi.org/10.20944/preprints202507.1691.v1)
+- Final Paper: Link to be updated
 
 ## Datasets
 
 
+
 ## Processing Raw Hypercube Data
+
+- `requirements.txt`:
+- `test_hmi.py`:
+- `Serovar_PCA_ML_111524.ipynb`
+- `fusion_2_cpu.ipynb`: 
 
 
 ## Workflow for Model Training and Testing
+
+- `test_hmi.py`:
+- `Serovar_PCA_ML_111524.ipynb`:
 
 
 ## Acknowledgments
