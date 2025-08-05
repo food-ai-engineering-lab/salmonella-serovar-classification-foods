@@ -34,15 +34,22 @@ images/
 
 
 ## Processing Raw Hypercube Data
+### USDA-ARS Code for extracting data from bacterial cells
 
-- `test_hmi.py`:
-- `Serovar_PCA_ML_111524.ipynb`:
+- `bacterial_hmi`: This is a Python package contains modules for auto segmentation of single bacterial cells in hypercube data.
 
+- Example visualized output:
+
+    ![single-cell-segmentation](readme/single-cell-segmentation.png)
+- `test_hmi.py`: This script is for running the bacterial segmentation code.
+
+### Data-Driven Feature Extraction and Manual Feature Selection
+- `Serovar_PCA_ML_111524.ipynb`: This interactive python notebook contains all code needed for feature extraction and feature selection.
 
 ## Workflow for Model Training and Testing
 
-- `Serovar_PCA_ML_111524.ipynb`:
-- `fusion_2_cpu.ipynb`: 
+- `Serovar_PCA_ML_111524.ipynb`: In this notebook after the feature engineering are the machine learning models for each data driven feature extraction and manual feature selection datasets.
+- `fusion_2_cpu.ipynb`: This interactive python notebook contains model training and evaluation for the multimodal fusion of spectral and spatial features. It utilized MLP with data driven feature extraction and EfficientNetV2 with RGB images.
 
 
 ## Acknowledgments
