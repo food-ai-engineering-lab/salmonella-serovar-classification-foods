@@ -40,7 +40,7 @@ images/
 
 - Example visualized output:
 
-    ![single-cell-segmentation](readme/single-cell-segmentation.png)
+    ![single-cell-segmentation](single-cell-segmentation.png)
 - `test_hmi.py`: This script is for running the bacterial segmentation code.
 
 ### Data-Driven Feature Extraction and Manual Feature Selection
